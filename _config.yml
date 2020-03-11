@@ -23,7 +23,7 @@ email: hunter@hunterdavis.com
 author:
   name: Hunter Davis
   email: hunter@hunterdavis.com #optional
-  website: http://www.hunterdavis.com
+  website: http://www.hunterdavis.com/photo-stream/
 description: >- # this means to ignore newlines until "baseurl:"
   Hunter's minimalistic, self-hosted photo stream.  Forked from maxvoltar.photo
 baseurl: "" # the subpath of your site, e.g. /blog
