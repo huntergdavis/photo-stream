@@ -17,6 +17,10 @@
 	<span class="full">
 		<span style="background-image: url('{{ safe_name | processed_path: 'large' }}')"></span>
 	</span>
+  <span class="over">
+   {{ exif: 'comment'}}
+  </span>
+
 	<a class="open" href="{{ slug | relative_url  }}" data-target="{{ slug }}">Open</a>
 	<a class="close" href="{{ '/' | relative_url }}">Close</a>
 
