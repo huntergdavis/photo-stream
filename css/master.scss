@@ -231,6 +231,13 @@ body {
 				background: #000;
 			}
 
+			h2 {
+			   position: absolute;
+			   top: 200px;
+			   left: 0;
+			   width: 100%;
+			}
+
 			.open {
 				display: none;
 			}
@@ -258,21 +265,6 @@ body {
 					background-size: contain;
 					background-repeat: no-repeat;
 					background-position: center;
-				}
-			}
-
-			.over {
-				display: flex;
-				position: absolute;
-				vertical-align: bottom;
-				top: 0;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				animation: fade-in .5s ease-out;
-
-				span {
-					flex-grow: 1;
 				}
 			}
 
