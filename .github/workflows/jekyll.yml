@@ -14,10 +14,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: vips
-      run:  wget https://github.com/libvips/libvips/releases/download/v8.8.3/vips-8.8.3.tar.gz 
+      run:  mkdir /tmp && cd /tmp && wget https://github.com/libvips/libvips/releases/download/v8.8.3/vips-8.8.3.tar.gz 
     - name: vips2
       run:
-            tar -xvzf vips-8.8.3.tar.gz /tmp 
+            cd /tmp && tar -xvzf vips-8.8.3.tar.gz 
     - name: vips3
       run:
             cd /tmp/vips-8.8.3 \
