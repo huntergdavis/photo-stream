@@ -273,7 +273,7 @@ DEPENDENCIES
   jekyll-tidy
   jekyll_image_processing!
   minima (~> 2.5)
-  sass-listen
+  sass-listen (~> 4.0)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
