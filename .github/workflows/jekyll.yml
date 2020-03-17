@@ -17,7 +17,7 @@ jobs:
       run:  wget https://github.com/libvips/libvips/releases/download/v8.8.3/vips-8.8.3.tar.gz 
     - name: vips2
       run:
-            tar xzC vips-8.8.3.tar.gz /tmp 
+            tar -xvzf vips-8.8.3.tar.gz /tmp 
     - name: vips3
       run:
             cd /tmp/vips-8.8.3 \
