@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install libvips
-      run: sudo apt-get install vips-dev
+      run: sudo apt-get install libvips-dev
     - name: Build the site in the jekyll/builder container
       run:
       |
