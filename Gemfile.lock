@@ -244,6 +244,9 @@ GEM
     rubyzip (2.3.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
@@ -270,6 +273,7 @@ DEPENDENCIES
   jekyll-tidy
   jekyll_image_processing!
   minima (~> 2.5)
+  sass-listen
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
