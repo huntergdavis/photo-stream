@@ -14,13 +14,19 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: vips
-      run:  wget https://github.com/libvips/libvips/releases/download/v8.8.3/vips-8.8.3.tar.gz \
-            && tar xzC vips-8.8.3.tar.gz /tmp \
-            && cd /tmp/vips-8.8.3 \
+      run:  wget https://github.com/libvips/libvips/releases/download/v8.8.3/vips-8.8.3.tar.gz 
+    - name: vips2
+      run:
+            tar xzC vips-8.8.3.tar.gz /tmp 
+    - name: vips3
+      run:
+            cd /tmp/vips-8.8.3 \
             && ./configure --prefix=/usr --disable-static --disable-debug \
             && make V=0 \
-            && make install \
-            && gem install ruby-vips
+            && make install 
+    - name: vips4
+      run:            
+            gem install ruby-vips
             
     - name: Bundle update in the builder container
       run:
