@@ -20,7 +20,9 @@ jobs:
             cd /tmp && tar -xvzf vips-8.8.3.tar.gz 
     - name: vips3
       run:
-            cd /tmp/vips-8.8.3 
+            sudo mkdir /usr/include/vips
+            && sudo chmod 777 /usr/include/vips
+            && cd /tmp/vips-8.8.3 
             && ./configure --prefix=/usr --disable-static --disable-debug 
             && make V=0 
             && make install 
