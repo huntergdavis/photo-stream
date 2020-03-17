@@ -14,7 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: vips
-      run:  wget -O- https://github.com/libvips/libvips/releases/download/v8.8.3/vips-8.8.3.tar.gz | tar xzC /tmp && cd /tmp/vips-8.8.3 \
+      run:  wget -O- https://github.com/libvips/libvips/releases/download/v8.8.3/vips-8.8.3.tar.gz | tar xzC /tmp \
+            && cd /tmp/vips-8.8.3 \
             && ./configure --prefix=/usr --disable-static --disable-debug \
             && make V=0 \
             && make install \
