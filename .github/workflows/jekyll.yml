@@ -28,7 +28,7 @@ jobs:
             && sudo make install 
     - name: vips4
       run:            
-            gem install ruby-vips
+            sudo gem install ruby-vips
             
     - name: Bundle update in the builder container
       run:
