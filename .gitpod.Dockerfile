@@ -48,9 +48,9 @@ ARG GIFLIB_VERSION=5.1.4
 ARG GIFLIB_URL=http://downloads.sourceforge.net/project/giflib
 
 RUN cd /usr/local/src \
-	&& wget ${GIFLIB_URL}/giflib-$GIFLIB_VERSION.tar.bz2 \
-	&& tar xf giflib-${GIFLIB_VERSION}.tar.bz2 \
-	&& cd giflib-${GIFLIB_VERSION} \
+	&& wget http://downloads.sourceforge.net/project/giflib/giflib-5.1.4.tar.bz2 \
+	&& tar xf giflib-5.1.4.tar.bz2 \
+	&& cd giflib-5.1.4 \
 	&& ./configure --prefix=/usr/local/vips \
 	&& make \
 	&& make install
@@ -64,9 +64,9 @@ ARG ORC_VERSION=0.4.31
 ARG ORC_URL=https://github.com/GStreamer/orc/archive
 
 RUN cd /usr/local/src \
-	&& wget ${ORC_URL}/$ORC_VERSION.tar.gz \
-	&& tar xf ${ORC_VERSION}.tar.gz \
-	&& cd orc-${ORC_VERSION} \
+	&& wget https://github.com/GStreamer/orc/archive/0.4.31.tar.gz \
+	&& tar xf 0.4.31.tar.gz \
+	&& cd orc-0.4.31 \
 	&& meson build --prefix=/usr/local/vips --libdir=/usr/local/vips/lib \
 	&& cd build \
 	&& ninja \
@@ -76,9 +76,9 @@ ARG GSF_VERSION=1.14.46
 ARG GSF_URL=http://ftp.gnome.org/pub/GNOME/sources/libgsf
 
 RUN cd /usr/local/src \
-	&& wget ${GSF_URL}/${GSF_VERSION%.*}/libgsf-$GSF_VERSION.tar.xz \
-	&& tar xf libgsf-${GSF_VERSION}.tar.xz \
-	&& cd libgsf-${GSF_VERSION} \
+	&& wget http://ftp.gnome.org/pub/GNOME/sources/libgsf/1.14.46/libgsf-1.14.46.tar.xz \
+	&& tar xf libgsf-1.14.46.tar.xz \
+	&& cd libgsf-1.14.46 \
 	&& ./configure --prefix=/usr/local/vips --disable-gtk-doc \
 	&& make \
 	&& make install
@@ -87,9 +87,9 @@ ARG VIPS_VERSION=8.9.0
 ARG VIPS_URL=https://github.com/libvips/libvips/releases/download
 
 RUN cd /usr/src \
-	&& wget ${VIPS_URL}/v${VIPS_VERSION}/vips-${VIPS_VERSION}.tar.gz \
-	&& tar xzf vips-${VIPS_VERSION}.tar.gz \
-	&& cd vips-${VIPS_VERSION} \
+	&& wget https://github.com/libvips/libvips/releases/download/v8.9.0/vips-8.9.0.tar.gz \
+	&& tar xzf vips-8.9.0.tar.gz \
+	&& cd vips-8.9.0 \
 	&& export PKG_CONFIG_PATH=/usr/local/vips/lib/pkgconfig \
 	&& ./configure --prefix=/usr/local/vips --disable-gtk-doc \
 	&& make \
@@ -104,7 +104,7 @@ RUN cd /usr/local/vips \
 	&& rm -rf share/man \
 	&& rm -rf share/thumbnailers \
 	&& cd /usr/local \
-	&& tar cfz libvips-dev-{VIPS_VERSION}.tar.gz vips
+	&& tar cfz libvips-dev-8.9.0.tar.gz vips
 
 # ruby-vips needs ffi, and ffi needs the dev headers for ruby
 RUN sudo apt-get install -y \
