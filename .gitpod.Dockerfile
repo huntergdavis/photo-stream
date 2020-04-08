@@ -58,7 +58,7 @@ RUN cd /usr/local/src \
 # orc uses ninja and meson to build
 RUN sudo apt-get install -y \
     python3-pip 
-RUN pip3 install ninja meson
+RUN sudo pip3 install ninja meson
 
 ARG ORC_VERSION=0.4.31
 ARG ORC_URL=https://github.com/GStreamer/orc/archive
@@ -67,7 +67,7 @@ RUN cd /usr/local/src \
 	&& sudo wget https://github.com/GStreamer/orc/archive/0.4.31.tar.gz \
 	&& sudo tar xf 0.4.31.tar.gz \
 	&& cd orc-0.4.31 \
-	&& meson build --prefix=/usr/local/vips --libdir=/usr/local/vips/lib \
+	&& sudo meson build --prefix=/usr/local/vips --libdir=/usr/local/vips/lib \
 	&& cd build \
 	&& sudo ninja \
 	&& sudo ninja install
