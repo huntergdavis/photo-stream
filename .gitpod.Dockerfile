@@ -67,8 +67,8 @@ RUN cd /usr/local/src \
 	&& sudo wget https://github.com/GStreamer/orc/archive/0.4.31.tar.gz \
 	&& sudo tar xf 0.4.31.tar.gz \
 	&& cd orc-0.4.31 \
-	&& sudo meson build --prefix=/usr/local/vips --libdir=/usr/local/vips/lib \
-	&& sudo cd build \
+	&& meson build --prefix=/usr/local/vips --libdir=/usr/local/vips/lib \
+	&& cd build \
 	&& sudo ninja \
 	&& sudo ninja install
 
