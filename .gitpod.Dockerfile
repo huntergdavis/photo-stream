@@ -14,7 +14,7 @@ RUN sudo apt-get -q update && sudo apt-get install -yq jekyll bundler libvips-de
 
 # useful build tools ... we need gtk-doc to build orc, since they don't ship
 # pre-baked tarballs
-RUN apt-get update && apt-get install -y \
+RUN sudo apt-get update && sudo apt-get install -y \
 	build-essential \
 	autoconf \
 	automake \
@@ -32,7 +32,7 @@ RUN apt-get update && apt-get install -y \
 # see https://devcenter.heroku.com/articles/stack-packages
 #
 # libgsf needs libxml2
-RUN apt-get install -y \
+RUN sudo apt-get install -y \
 	glib-2.0-dev \
 	libexpat-dev \
 	librsvg2-dev \
@@ -56,7 +56,7 @@ RUN cd /usr/local/src \
 	&& make install
 
 # orc uses ninja and meson to build
-RUN apt-get install -y \
+RUN sudo apt-get install -y \
     python3-pip 
 RUN pip3 install ninja meson
 
@@ -107,7 +107,7 @@ RUN cd /usr/local/vips \
 	&& tar cfz libvips-dev-{VIPS_VERSION}.tar.gz vips
 
 # ruby-vips needs ffi, and ffi needs the dev headers for ruby
-RUN apt-get install -y \
+RUN sudo apt-get install -y \
     ruby-dev 
 
 # test ruby-vips
