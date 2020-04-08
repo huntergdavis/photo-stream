@@ -76,7 +76,7 @@ ARG GSF_VERSION=1.14.46
 ARG GSF_URL=http://ftp.gnome.org/pub/GNOME/sources/libgsf
 
 RUN cd /usr/local/src \
-	&& sudo wget http://ftp.gnome.org/pub/GNOME/sources/libgsf/1.14.46/libgsf-1.14.46.tar.xz \
+	&& sudo wget ftp.gnome.org/pub/GNOME/sources/libgsf/1.14/libgsf-1.14.46.tar.xz \
 	&& sudo tar xf libgsf-1.14.46.tar.xz \
 	&& cd libgsf-1.14.46 \
 	&& sudo ./configure --prefix=/usr/local/vips --disable-gtk-doc \
