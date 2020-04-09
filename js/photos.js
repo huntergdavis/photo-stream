@@ -6,6 +6,23 @@ container.innerHTML = html;
 document.querySelector(`#${photo}`).classList.add(TARGET_CLASS);
 lazyload();
 })(`
+<li class="item " id="passing-time-during-covid" style="background-image: url('/photo-stream/photos/tint/passing%20time%20during%20covid-65ba1d.jpg')" title="passing time during covid">
+  <img class="lazyload" data-src="/photo-stream/photos/thumbnail/passing%20time%20during%20covid-ccf4df.jpg" src="/photo-stream/photos/tint/passing%20time%20during%20covid-65ba1d.jpg" height="3024" width="4032" />
+  <span class="full">
+    <span style="background-image: url('/photo-stream/photos/large/passing%20time%20during%20covid-686656.jpg')"></span>
+    <h2><span>    (2020:03:22)</span></h2>
+  </span>
+  <a class="open" href="/photo-stream/passing-time-during-covid" data-target="passing-time-during-covid">Open</a>
+  <a class="close" href="/photo-stream/">Close</a>
+  <a href="/photo-stream/my-desk-at-home" data-target="my-desk-at-home" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>SM-G960U</li>
+    <li>1/60</li>
+    <li><span class="aperture"><em>f</em>/</span>2.4</li>
+	</ul> -->
+</li>
 <li class="item " id="my-desk-at-home" style="background-image: url('/photo-stream/photos/tint/my%20desk%20at%20home-65ba1d.jpg')" title="my desk at home">
   <img class="lazyload" data-src="/photo-stream/photos/thumbnail/my%20desk%20at%20home-ccf4df.jpg" src="/photo-stream/photos/tint/my%20desk%20at%20home-65ba1d.jpg" height="1200" width="1600" />
   <span class="full">
@@ -14,6 +31,9 @@ lazyload();
   </span>
   <a class="open" href="/photo-stream/my-desk-at-home" data-target="my-desk-at-home">Open</a>
   <a class="close" href="/photo-stream/">Close</a>
+  <a href="/photo-stream/passing-time-during-covid" data-target="passing-time-during-covid" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
   <a href="/photo-stream/munchie-riding-shotgun" data-target="munchie-riding-shotgun" class="next" title="Go to next photo">
     <span>Next</span>
   </a>

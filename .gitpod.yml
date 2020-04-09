@@ -1,5 +1,5 @@
 tasks:
   - init: echo "Replace me with a build script for the project."
-    command: cd photo_stream_backing && bundle install && bundle exec jekyll build && mv -f ./_site/* ../ && git commit -a -m "regenerating jekyll site" && git push origin master
+    command: cd photo_stream_backing && bundle install && bundle exec jekyll build && cd _site && tar cf - . |(cd ../../; tar xvf -) && cd ../../ && git add . && git commit -a -m "regenerating jekyll site" && git push origin master
 image:
   file: .gitpod.Dockerfile
