@@ -91,7 +91,7 @@ RUN cd /usr/src \
 	&& sudo tar xzf vips-8.9.0.tar.gz \
 	&& cd vips-8.9.0 \
 	&& export PKG_CONFIG_PATH=/usr/local/vips/lib/pkgconfig \
-	&& sudo -E./configure --prefix=/usr/local/vips --disable-gtk-doc \
+	&& sudo -E ./configure --prefix=/usr/local/vips --disable-gtk-doc \
 	&& sudo make \
 	&& sudo make install
 
