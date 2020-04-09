@@ -78,10 +78,13 @@ jobs:
         echo test, and deploy your project.
 
     # Runs a single command using the runners shell
-    - name: workspace build
-      run:     cd $GITHUB_WORKSPACE && bundle install & bundle exec jekyll build
+    - name: workspace build 1
+      run:     cd $GITHUB_WORKSPACE && sudo bundle install
       
-      
+
+    # Runs a single command using the runners shell
+    - name: workspace build 2
+      run:     cd $GITHUB_WORKSPACE && sudo bundle exec jekyll build      
 
 
 
