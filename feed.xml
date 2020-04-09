@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <generator uri="https://github.com/maxvoltar/photo-stream">Photo Stream by @maxvoltar</generator>
+    <link href="http://www.hunterdavis.com/photo-stream//feed.xml" rel="self" type="application/atom+xml" />
+    <link href="http://www.hunterdavis.com/photo-stream/" rel="alternate" type="text/html"/>
+    <updated>2020-04-09T01:51:36+00:00</updated>
+    <id>2020-04-09T01:51:36+00:00</id>
+    <title type="html">hunterdavis.com/photo-stream</title>
+    <subtitle>Hunter's minimalistic, self-hosted photo stream.  Forked from maxvoltar.photo</subtitle>
+    <author>
+      <name>Hunter Davis</name>
+      <email>hunter@hunterdavis.com</email>
+      <uri>http://www.hunterdavis.com/photo-stream/</uri>
+    </author>
+    <entry>
+      <title type="html">my desk at home</title>
+      <link href="http://www.hunterdavis.com/photo-stream//my-desk-at-home/" rel="alternate" type="text/html" title="my desk at home" />
+      <published>2020-04-09T01:51:36+00:00</published>
+      <updated>2020-04-09T01:51:36+00:00</updated>
+      <id>http://www.hunterdavis.com/photo-stream//my-desk-at-home/</id>
+      <content type="html">
+        <![CDATA[<figure><a href="http://www.hunterdavis.com/photo-stream//my-desk-at-home/"><img src="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/my%20desk%20at%20home-686656.jpg" alt="my desk at home" /></a></figure>
+      ]]>
+    </content>
+    <author>
+      <name>Hunter Davis</name>
+      <email>hunter@hunterdavis.com</email>
+      <uri>http://www.hunterdavis.com/photo-stream/</uri>
+    </author>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/my%20desk%20at%20home-686656.jpg" />
+      <media:content medium="image" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/my%20desk%20at%20home-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+      </entry>
+      <entry>
+        <title type="html">munchie riding shotgun</title>
+        <link href="http://www.hunterdavis.com/photo-stream//munchie-riding-shotgun/" rel="alternate" type="text/html" title="munchie riding shotgun" />
+        <published>2020-04-09T01:51:36+00:00</published>
+        <updated>2020-04-09T01:51:36+00:00</updated>
+        <id>http://www.hunterdavis.com/photo-stream//munchie-riding-shotgun/</id>
+        <content type="html">
+          <![CDATA[<figure><a href="http://www.hunterdavis.com/photo-stream//munchie-riding-shotgun/"><img src="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/munchie%20riding%20shotgun-686656.jpg" alt="munchie riding shotgun" /></a></figure>
+        ]]>
+      </content>
+      <author>
+        <name>Hunter Davis</name>
+        <email>hunter@hunterdavis.com</email>
+        <uri>http://www.hunterdavis.com/photo-stream/</uri>
+      </author>
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/munchie%20riding%20shotgun-686656.jpg" />
+        <media:content medium="image" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/munchie%20riding%20shotgun-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+        </entry>
+        <entry>
+          <title type="html">i had blue hair</title>
+          <link href="http://www.hunterdavis.com/photo-stream//i-had-blue-hair/" rel="alternate" type="text/html" title="i had blue hair" />
+          <published>2020-04-09T01:51:36+00:00</published>
+          <updated>2020-04-09T01:51:36+00:00</updated>
+          <id>http://www.hunterdavis.com/photo-stream//i-had-blue-hair/</id>
+          <content type="html">
+            <![CDATA[<figure><a href="http://www.hunterdavis.com/photo-stream//i-had-blue-hair/"><img src="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/i%20had%20blue%20hair-686656.jpg" alt="i had blue hair" /></a></figure>
+          ]]>
+        </content>
+        <author>
+          <name>Hunter Davis</name>
+          <email>hunter@hunterdavis.com</email>
+          <uri>http://www.hunterdavis.com/photo-stream/</uri>
+        </author>
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/i%20had%20blue%20hair-686656.jpg" />
+          <media:content medium="image" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/i%20had%20blue%20hair-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+          </entry>
+        </feed>
