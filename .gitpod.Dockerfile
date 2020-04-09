@@ -112,5 +112,5 @@ RUN sudo apt-get install -y \
 
 # test ruby-vips
 RUN export LD_LIBRARY_PATH=/usr/local/vips/lib \
-	&& gem install ruby-vips \
+	&& sudo -E gem install ruby-vips \
 	&& ruby -e 'require "ruby-vips"; puts "success!"'
