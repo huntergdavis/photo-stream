@@ -3,8 +3,8 @@
     <generator uri="https://github.com/maxvoltar/photo-stream">Photo Stream by @maxvoltar</generator>
     <link href="http://www.hunterdavis.com/photo-stream//feed.xml" rel="self" type="application/atom+xml" />
     <link href="http://www.hunterdavis.com/photo-stream/" rel="alternate" type="text/html"/>
-    <updated>2020-04-09T02:27:13+00:00</updated>
-    <id>2020-04-09T02:27:13+00:00</id>
+    <updated>2020-04-09T02:39:32+00:00</updated>
+    <id>2020-04-09T02:39:32+00:00</id>
     <title type="html">hunterdavis.com/photo-stream</title>
     <subtitle>Hunter's minimalistic, self-hosted photo stream.  Forked from maxvoltar.photo</subtitle>
     <author>
@@ -15,8 +15,8 @@
     <entry>
       <title type="html">passing time during covid</title>
       <link href="http://www.hunterdavis.com/photo-stream//passing-time-during-covid/" rel="alternate" type="text/html" title="passing time during covid" />
-      <published>2020-04-09T02:27:13+00:00</published>
-      <updated>2020-04-09T02:27:13+00:00</updated>
+      <published>2020-04-09T02:39:32+00:00</published>
+      <updated>2020-04-09T02:39:32+00:00</updated>
       <id>http://www.hunterdavis.com/photo-stream//passing-time-during-covid/</id>
       <content type="html">
         <![CDATA[<figure><a href="http://www.hunterdavis.com/photo-stream//passing-time-during-covid/"><img src="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/passing%20time%20during%20covid-686656.jpg" alt="passing time during covid" /></a></figure>
@@ -31,13 +31,13 @@
       <media:content medium="image" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/passing%20time%20during%20covid-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
       </entry>
       <entry>
-        <title type="html">my desk at home</title>
-        <link href="http://www.hunterdavis.com/photo-stream//my-desk-at-home/" rel="alternate" type="text/html" title="my desk at home" />
-        <published>2020-04-09T02:27:13+00:00</published>
-        <updated>2020-04-09T02:27:13+00:00</updated>
-        <id>http://www.hunterdavis.com/photo-stream//my-desk-at-home/</id>
+        <title type="html">visiting oaxaca</title>
+        <link href="http://www.hunterdavis.com/photo-stream//visiting-oaxaca/" rel="alternate" type="text/html" title="visiting oaxaca" />
+        <published>2020-04-09T02:39:32+00:00</published>
+        <updated>2020-04-09T02:39:32+00:00</updated>
+        <id>http://www.hunterdavis.com/photo-stream//visiting-oaxaca/</id>
         <content type="html">
-          <![CDATA[<figure><a href="http://www.hunterdavis.com/photo-stream//my-desk-at-home/"><img src="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/my%20desk%20at%20home-686656.jpg" alt="my desk at home" /></a></figure>
+          <![CDATA[<figure><a href="http://www.hunterdavis.com/photo-stream//visiting-oaxaca/"><img src="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/visiting%20oaxaca-686656.jpg" alt="visiting oaxaca" /></a></figure>
         ]]>
       </content>
       <author>
@@ -45,17 +45,17 @@
         <email>hunter@hunterdavis.com</email>
         <uri>http://www.hunterdavis.com/photo-stream/</uri>
       </author>
-      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/my%20desk%20at%20home-686656.jpg" />
-        <media:content medium="image" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/my%20desk%20at%20home-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/visiting%20oaxaca-686656.jpg" />
+        <media:content medium="image" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/visiting%20oaxaca-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
         </entry>
         <entry>
-          <title type="html">munchie riding shotgun</title>
-          <link href="http://www.hunterdavis.com/photo-stream//munchie-riding-shotgun/" rel="alternate" type="text/html" title="munchie riding shotgun" />
-          <published>2020-04-09T02:27:13+00:00</published>
-          <updated>2020-04-09T02:27:13+00:00</updated>
-          <id>http://www.hunterdavis.com/photo-stream//munchie-riding-shotgun/</id>
+          <title type="html">my desk at home</title>
+          <link href="http://www.hunterdavis.com/photo-stream//my-desk-at-home/" rel="alternate" type="text/html" title="my desk at home" />
+          <published>2020-04-09T02:39:32+00:00</published>
+          <updated>2020-04-09T02:39:32+00:00</updated>
+          <id>http://www.hunterdavis.com/photo-stream//my-desk-at-home/</id>
           <content type="html">
-            <![CDATA[<figure><a href="http://www.hunterdavis.com/photo-stream//munchie-riding-shotgun/"><img src="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/munchie%20riding%20shotgun-686656.jpg" alt="munchie riding shotgun" /></a></figure>
+            <![CDATA[<figure><a href="http://www.hunterdavis.com/photo-stream//my-desk-at-home/"><img src="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/my%20desk%20at%20home-686656.jpg" alt="my desk at home" /></a></figure>
           ]]>
         </content>
         <author>
@@ -63,17 +63,17 @@
           <email>hunter@hunterdavis.com</email>
           <uri>http://www.hunterdavis.com/photo-stream/</uri>
         </author>
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/munchie%20riding%20shotgun-686656.jpg" />
-          <media:content medium="image" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/munchie%20riding%20shotgun-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/my%20desk%20at%20home-686656.jpg" />
+          <media:content medium="image" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/my%20desk%20at%20home-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
           </entry>
           <entry>
-            <title type="html">i had blue hair</title>
-            <link href="http://www.hunterdavis.com/photo-stream//i-had-blue-hair/" rel="alternate" type="text/html" title="i had blue hair" />
-            <published>2020-04-09T02:27:13+00:00</published>
-            <updated>2020-04-09T02:27:13+00:00</updated>
-            <id>http://www.hunterdavis.com/photo-stream//i-had-blue-hair/</id>
+            <title type="html">munchie riding shotgun</title>
+            <link href="http://www.hunterdavis.com/photo-stream//munchie-riding-shotgun/" rel="alternate" type="text/html" title="munchie riding shotgun" />
+            <published>2020-04-09T02:39:32+00:00</published>
+            <updated>2020-04-09T02:39:32+00:00</updated>
+            <id>http://www.hunterdavis.com/photo-stream//munchie-riding-shotgun/</id>
             <content type="html">
-              <![CDATA[<figure><a href="http://www.hunterdavis.com/photo-stream//i-had-blue-hair/"><img src="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/i%20had%20blue%20hair-686656.jpg" alt="i had blue hair" /></a></figure>
+              <![CDATA[<figure><a href="http://www.hunterdavis.com/photo-stream//munchie-riding-shotgun/"><img src="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/munchie%20riding%20shotgun-686656.jpg" alt="munchie riding shotgun" /></a></figure>
             ]]>
           </content>
           <author>
@@ -81,7 +81,25 @@
             <email>hunter@hunterdavis.com</email>
             <uri>http://www.hunterdavis.com/photo-stream/</uri>
           </author>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/i%20had%20blue%20hair-686656.jpg" />
-            <media:content medium="image" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/i%20had%20blue%20hair-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/munchie%20riding%20shotgun-686656.jpg" />
+            <media:content medium="image" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/munchie%20riding%20shotgun-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
             </entry>
-          </feed>
+            <entry>
+              <title type="html">i had blue hair</title>
+              <link href="http://www.hunterdavis.com/photo-stream//i-had-blue-hair/" rel="alternate" type="text/html" title="i had blue hair" />
+              <published>2020-04-09T02:39:32+00:00</published>
+              <updated>2020-04-09T02:39:32+00:00</updated>
+              <id>http://www.hunterdavis.com/photo-stream//i-had-blue-hair/</id>
+              <content type="html">
+                <![CDATA[<figure><a href="http://www.hunterdavis.com/photo-stream//i-had-blue-hair/"><img src="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/i%20had%20blue%20hair-686656.jpg" alt="i had blue hair" /></a></figure>
+              ]]>
+            </content>
+            <author>
+              <name>Hunter Davis</name>
+              <email>hunter@hunterdavis.com</email>
+              <uri>http://www.hunterdavis.com/photo-stream/</uri>
+            </author>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/i%20had%20blue%20hair-686656.jpg" />
+              <media:content medium="image" url="http://www.hunterdavis.com/photo-stream//photo-stream/photos/large/i%20had%20blue%20hair-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+              </entry>
+            </feed>

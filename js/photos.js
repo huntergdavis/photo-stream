@@ -14,13 +14,33 @@ lazyload();
   </span>
   <a class="open" href="/photo-stream/passing-time-during-covid" data-target="passing-time-during-covid">Open</a>
   <a class="close" href="/photo-stream/">Close</a>
-  <a href="/photo-stream/my-desk-at-home" data-target="my-desk-at-home" class="next" title="Go to next photo">
+  <a href="/photo-stream/visiting-oaxaca" data-target="visiting-oaxaca" class="next" title="Go to next photo">
     <span>Next</span>
   </a>
   <!-- <ul class="meta">
     <li>SM-G960U</li>
     <li>1/60</li>
     <li><span class="aperture"><em>f</em>/</span>2.4</li>
+	</ul> -->
+</li>
+<li class="item " id="visiting-oaxaca" style="background-image: url('/photo-stream/photos/tint/visiting%20oaxaca-65ba1d.jpg')" title="visiting oaxaca">
+  <img class="lazyload" data-src="/photo-stream/photos/thumbnail/visiting%20oaxaca-ccf4df.jpg" src="/photo-stream/photos/tint/visiting%20oaxaca-65ba1d.jpg" height="1592" width="3264" />
+  <span class="full">
+    <span style="background-image: url('/photo-stream/photos/large/visiting%20oaxaca-686656.jpg')"></span>
+    <h2><span>    ()</span></h2>
+  </span>
+  <a class="open" href="/photo-stream/visiting-oaxaca" data-target="visiting-oaxaca">Open</a>
+  <a class="close" href="/photo-stream/">Close</a>
+  <a href="/photo-stream/passing-time-during-covid" data-target="passing-time-during-covid" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <a href="/photo-stream/my-desk-at-home" data-target="my-desk-at-home" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li></li>
+    <li></li>
+    <li><span class="aperture"><em>f</em>/</span>0.0</li>
 	</ul> -->
 </li>
 <li class="item " id="my-desk-at-home" style="background-image: url('/photo-stream/photos/tint/my%20desk%20at%20home-65ba1d.jpg')" title="my desk at home">
@@ -31,7 +51,7 @@ lazyload();
   </span>
   <a class="open" href="/photo-stream/my-desk-at-home" data-target="my-desk-at-home">Open</a>
   <a class="close" href="/photo-stream/">Close</a>
-  <a href="/photo-stream/passing-time-during-covid" data-target="passing-time-during-covid" class="previous" title="Go to previous photo">
+  <a href="/photo-stream/visiting-oaxaca" data-target="visiting-oaxaca" class="previous" title="Go to previous photo">
     <span>Previous</span>
   </a>
   <a href="/photo-stream/munchie-riding-shotgun" data-target="munchie-riding-shotgun" class="next" title="Go to next photo">
