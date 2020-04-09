@@ -1,0 +1,147 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    # Runs a single command using the runners shell
+    - name: useful build tools 
+      run: sudo apt-get -q update && sudo apt-get install -yq jekyll bundler libvips-dev libvips42 libglib2.0-0 nodejs npm ruby2.5-dev 
+
+    # Runs a single command using the runners shell
+    - name: useful build tools
+      run: sudo apt-get update && sudo apt-get install -y \
+	build-essential \
+	autoconf \
+	automake \
+	libtool \
+	intltool \
+	gtk-doc-tools \
+	unzip \
+	wget \
+	git \
+	pkg-config 
+
+    # Runs a single command using the runners shell
+    - name: libgsf needs libxml2
+      run: sudo apt-get install -y \
+	glib-2.0-dev \
+	libexpat-dev \
+	librsvg2-dev \
+	libpng-dev \
+	libjpeg-dev \
+	libtiff5-dev \
+	libexif-dev \
+	liblcms2-dev \
+	libxml2-dev \
+	libfftw3-dev 
+      
+    # Runs a single command using the runners shell
+    - name: giflib
+      run: cd /usr/local/src \
+	&& sudo wget http://downloads.sourceforge.net/project/giflib/giflib-5.1.4.tar.bz2 \
+	&& sudo tar xf giflib-5.1.4.tar.bz2 \
+	&& cd giflib-5.1.4 \
+	&& sudo ./configure --prefix=/usr/local/vips \
+	&& sudo make \
+	&& sudo make install
+
+      
+    # Runs a single command using the runners shell
+    - name: pip1
+      run: sudo apt-get install -y \
+    python3-pip
+      
+    # Runs a single command using the runners shell
+    - name: meson
+      run: sudo pip3 install ninja meson
+      
+    # Runs a single command using the runners shell
+    - name: ninja orc
+      run: cd /usr/local/src \
+	&& sudo wget https://github.com/GStreamer/orc/archive/0.4.31.tar.gz \
+	&& sudo tar xf 0.4.31.tar.gz \
+	&& cd orc-0.4.31 \
+	&& sudo meson build --prefix=/usr/local/vips --libdir=/usr/local/vips/lib \
+	&& cd build \
+	&& sudo ninja \
+	&& sudo ninja install
+      
+    # Runs a single command using the runners shell
+    - name: gsf
+      run: cd /usr/local/src \
+	&& sudo wget ftp.gnome.org/pub/GNOME/sources/libgsf/1.14/libgsf-1.14.46.tar.xz \
+	&& sudo tar xf libgsf-1.14.46.tar.xz \
+	&& cd libgsf-1.14.46 \
+	&& sudo ./configure --prefix=/usr/local/vips --disable-gtk-doc \
+	&& sudo make \
+	&& sudo make install
+      
+    # Runs a single command using the runners shell
+    - name: libvips
+      run: cd /usr/src \
+	&& sudo wget https://github.com/libvips/libvips/releases/download/v8.9.0/vips-8.9.0.tar.gz \
+	&& sudo tar xzf vips-8.9.0.tar.gz \
+	&& cd vips-8.9.0 \
+	&& export PKG_CONFIG_PATH=/usr/local/vips/lib/pkgconfig \
+	&& sudo -E ./configure --prefix=/usr/local/vips --disable-gtk-doc \
+	&& sudo make \
+	&& sudo make install
+      
+    # Runs a single command using the runners shell
+    - name: tarlibvips
+      run:       cd /usr/local/vips \
+	&& sudo rm bin/gif* bin/orc* bin/gsf* bin/batch_* bin/vips-8.9 \
+	&& sudo rm bin/vipsprofile bin/light_correct bin/shrink_width \
+	&& sudo strip lib/*.a lib/lib*.so* \
+	&& sudo rm -rf share/gtk-doc \
+	&& sudo rm -rf share/man \
+	&& sudo rm -rf share/thumbnailers \
+	&& cd /usr/local \
+	&& sudo tar cfz libvips-dev-8.9.0.tar.gz vips
+       
+    # Runs a single command using the runners shell
+    - name: ffi
+      run:     sudo apt-get install -y \
+    ruby-dev        
+      
+    # Runs a single command using the runners shell
+    - name: ruby-vips final test
+      run:  export LD_LIBRARY_PATH=/usr/local/vips/lib \
+	&& sudo -E gem install ruby-vips \
+	&& ruby -e 'require "ruby-vips"; puts "success!"'     
+      
+    # Runs a set of commands using the runners shell
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+
+    # Runs a single command using the runners shell
+    - name: workspace build
+      run:     cd $GITHUB_WORKSPACE && bundle install & bundle exec jekyll build
+      
+      
+
+
+
+
+
