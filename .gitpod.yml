@@ -1,5 +1,5 @@
 tasks:
   - init: echo "Replace me with a build script for the project."
-    command: cd photo_stream_backing && bundle install && bundle exec jekyll build -d ../
+    command: cd photo_stream_backing && bundle install && bundle exec jekyll build
 image:
   file: .gitpod.Dockerfile
