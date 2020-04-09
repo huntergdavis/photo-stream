@@ -84,7 +84,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: workspace build 2
-      run:     cd $GITHUB_WORKSPACE && sudo bundle exec jekyll build      
+      run:     export LD_LIBRARY_PATH=/usr/local/vips/lib && cd $GITHUB_WORKSPACE && sudo -E bundle exec jekyll build      
 
 
 
