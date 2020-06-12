@@ -6,6 +6,63 @@ container.innerHTML = html;
 document.querySelector(`#${photo}`).classList.add(TARGET_CLASS);
 lazyload();
 })(`
+<li class="item " id="no-donations-chaz-2020" style="background-image: url('/photo-stream/photos/tint/no%20donations%20chaz%202020-65ba1d.jpg')" title="no donations chaz 2020">
+  <img class="lazyload" data-src="/photo-stream/photos/thumbnail/no%20donations%20chaz%202020-ccf4df.jpg" src="/photo-stream/photos/tint/no%20donations%20chaz%202020-65ba1d.jpg" height="3024" width="4032" />
+  <span class="full">
+    <span style="background-image: url('/photo-stream/photos/large/no%20donations%20chaz%202020-686656.jpg')"></span>
+    <h2><span>    (2020:06:12)</span></h2>
+  </span>
+  <a class="open" href="/photo-stream/no-donations-chaz-2020" data-target="no-donations-chaz-2020">Open</a>
+  <a class="close" href="/photo-stream/">Close</a>
+  <a href="/photo-stream/black-lives-matter-chaz-2020" data-target="black-lives-matter-chaz-2020" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>SM-G960U</li>
+    <li>1/120</li>
+    <li><span class="aperture"><em>f</em>/</span>2.4</li>
+	</ul> -->
+</li>
+<li class="item " id="black-lives-matter-chaz-2020" style="background-image: url('/photo-stream/photos/tint/black%20lives%20matter%20chaz%202020-65ba1d.jpg')" title="black lives matter chaz 2020">
+  <img class="lazyload" data-src="/photo-stream/photos/thumbnail/black%20lives%20matter%20chaz%202020-ccf4df.jpg" src="/photo-stream/photos/tint/black%20lives%20matter%20chaz%202020-65ba1d.jpg" height="4032" width="3024" />
+  <span class="full">
+    <span style="background-image: url('/photo-stream/photos/large/black%20lives%20matter%20chaz%202020-686656.jpg')"></span>
+    <h2><span>    (2020:06:12)</span></h2>
+  </span>
+  <a class="open" href="/photo-stream/black-lives-matter-chaz-2020" data-target="black-lives-matter-chaz-2020">Open</a>
+  <a class="close" href="/photo-stream/">Close</a>
+  <a href="/photo-stream/no-donations-chaz-2020" data-target="no-donations-chaz-2020" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <a href="/photo-stream/conversation-cafe-chaz-2020" data-target="conversation-cafe-chaz-2020" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>SM-G960U</li>
+    <li>1/120</li>
+    <li><span class="aperture"><em>f</em>/</span>2.4</li>
+	</ul> -->
+</li>
+<li class="item " id="conversation-cafe-chaz-2020" style="background-image: url('/photo-stream/photos/tint/conversation%20cafe%20chaz%202020-65ba1d.jpg')" title="conversation cafe chaz 2020">
+  <img class="lazyload" data-src="/photo-stream/photos/thumbnail/conversation%20cafe%20chaz%202020-ccf4df.jpg" src="/photo-stream/photos/tint/conversation%20cafe%20chaz%202020-65ba1d.jpg" height="3024" width="4032" />
+  <span class="full">
+    <span style="background-image: url('/photo-stream/photos/large/conversation%20cafe%20chaz%202020-686656.jpg')"></span>
+    <h2><span>    (2020:06:12)</span></h2>
+  </span>
+  <a class="open" href="/photo-stream/conversation-cafe-chaz-2020" data-target="conversation-cafe-chaz-2020">Open</a>
+  <a class="close" href="/photo-stream/">Close</a>
+  <a href="/photo-stream/black-lives-matter-chaz-2020" data-target="black-lives-matter-chaz-2020" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <a href="/photo-stream/passing-time-during-covid" data-target="passing-time-during-covid" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>SM-G960U</li>
+    <li>1/50</li>
+    <li><span class="aperture"><em>f</em>/</span>2.4</li>
+	</ul> -->
+</li>
 <li class="item " id="passing-time-during-covid" style="background-image: url('/photo-stream/photos/tint/passing%20time%20during%20covid-65ba1d.jpg')" title="passing time during covid">
   <img class="lazyload" data-src="/photo-stream/photos/thumbnail/passing%20time%20during%20covid-ccf4df.jpg" src="/photo-stream/photos/tint/passing%20time%20during%20covid-65ba1d.jpg" height="3024" width="4032" />
   <span class="full">
@@ -14,6 +71,9 @@ lazyload();
   </span>
   <a class="open" href="/photo-stream/passing-time-during-covid" data-target="passing-time-during-covid">Open</a>
   <a class="close" href="/photo-stream/">Close</a>
+  <a href="/photo-stream/conversation-cafe-chaz-2020" data-target="conversation-cafe-chaz-2020" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
   <a href="/photo-stream/visiting-oaxaca" data-target="visiting-oaxaca" class="next" title="Go to next photo">
     <span>Next</span>
   </a>
